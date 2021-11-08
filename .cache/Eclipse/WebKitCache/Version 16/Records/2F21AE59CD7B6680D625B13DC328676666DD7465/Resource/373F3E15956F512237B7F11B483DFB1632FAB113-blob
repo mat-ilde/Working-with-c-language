@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+<!-- End Google Tag Manager -->    <meta name="author" content="Ed Merks"/>
+    <meta name="keywords" content="Eclipse IDE"/>
+    <link rel="shortcut icon" href="/eclipse.org-common/themes/solstice/public/images/favicon.ico"/>
+    <title>Donate | The Eclipse Foundation</title>
+    <link rel="preconnect stylesheet" href="/eclipse.org-common/themes/solstice/public/stylesheets/quicksilver.min.css?v0.163"/>
+<meta name="description" content="The Eclipse Foundation - home to a global community, the Eclipse IDE, Jakarta EE and over 375 open source projects, including runtimes, tools and frameworks."/>
+<meta property="og:description" content="The Eclipse Foundation - home to a global community, the Eclipse IDE, Jakarta EE and over 375 open source projects, including runtimes, tools and frameworks."/>
+<meta property="og:image" content="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-200x200.png"/>
+<meta property="og:title" content="Donate | The Eclipse Foundation"/>
+<meta property="og:image:width" content="200"/>
+<meta property="og:image:height" content="200"/>
+<meta itemprop="name" content="Donate | The Eclipse Foundation"/>
+<meta itemprop="description" content="The Eclipse Foundation - home to a global community, the Eclipse IDE, Jakarta EE and over 375 open source projects, including runtimes, tools and frameworks."/>
+<meta itemprop="image" content="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-400x400.png"/>
+<meta name="twitter:site" content="@EclipseFdn"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Donate | The Eclipse Foundation"/>
+<meta name="twitter:url" content="https://www.eclipse.org/setups/donate/?scope=Eclipse%20IDE%20for%20Enterprise%20Java%20and%20Web%20Developers%20(includes%20Incubating%20components)&version=4.20.0.20210612-1200&campaign=2021-06"/>
+<meta name="twitter:description" content="The Eclipse Foundation - home to a global community, the Eclipse IDE, Jakarta EE and over 375 open source projects, including runtimes, tools and frameworks."/>
+<meta name="twitter:image" content="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-400x400.png"/>
+
+<style>
+@keyframes fa-spin2 {
+  0% {transform:rotate(0deg)} to {transform:rotate(359deg)}
+  25% {transform:rotate(0deg)} to {transform:rotate(359deg)}
+  50% {transform:rotate(0deg)} to {transform:rotate(359deg)}
+  75% {transform:rotate(0deg)} to {transform:rotate(359deg)}
+  100% {transform:rotate(0deg)} to {transform:rotate(359deg)}
+}
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.toggle {
+  display: none;
+}
+
+.toggle-label {
+  font-size: 150%;
+}
+
+.toggle + .toggle-label + .toggle-content {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all .4s ease-in-out;
+}
+
+.toggle + .toggle-label > .toggle-state-on {
+  display: none;
+}
+
+.toggle + .toggle-label > .toggle-state-off {
+  display: inherit;
+}
+
+.toggle:checked + .toggle-label > .toggle-state-on {
+  display: inherit;
+}
+
+.toggle:checked + .toggle-label > .toggle-state-off {
+  display: none;
+}
+
+.toggle:checked + .toggle-label + .toggle-content {
+  max-height: none;
+  opacity: 1;
+}
+
+.toggle-content {
+  padding-left: 2em;
+}
+
+.toggle-label:hover, .toggle-label:hover * {
+  cursor: pointer;
+}
+
+footer {
+  display: none;
+}
+
+.featured-footer {
+  display: none;
+}
+
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="preconnect stylesheet" type="text/css"/>
+    <script> var eclipse_org_common = {"settings":{"cookies_class":{"name":"eclipse_settings","enabled":1}}}</script>  </head>
+  <body id="body_solstice">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->    <a class="sr-only" href="#content">Skip to main content</a>
+    <header class="header-wrapper" id="header-wrapper">
+      <div class="clearfix toolbar-container-wrapper">
+      <div class="container">
+        <div class="text-right toolbar-row row hidden-print">
+          <div class="col-md-24 row-toolbar-col">
+            <ul class="list-inline">
+              <li><a class="toolbar-link" href="https://accounts.eclipse.org/user/login/?takemeback=https%3A%2F%2Fwww.eclipse.org%2Fsetups%2Fdonate%2F"><i class="fa fa-sign-in"></i> Log in</a></li>
+              <li><a class="toolbar-link toolbar-manage-cookies dropdown-toggle"><i class="fa fa-wrench"></i> Manage Cookies</a></li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div>  <div class="container">
+    <div class="row" id="header-row">
+            <div class="col-sm-5 col-md-4" id="header-left">
+        <div class="wrapper-logo-default"><a href="https://www.eclipse.org/"><img class="logo-eclipse-default hidden-xs" alt="Eclipse.org logo" width="160" src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-white-orange.svg"/></a></div>
+      </div>            <div class="col-sm-19 col-md-20 margin-top-10" id="main-menu-wrapper">
+      <div class="float-right hidden-xs" id="btn-call-for-action"><a href="https://www.eclipse.org/donate/ide/?scope=Eclipse+IDE+for+Enterprise+Java+and+Web+Developers+%28includes+Incubating+components%29&amp;campaign=2021-06" class="btn btn-huge btn-primary" target="_blank"><i class="fa fa-star"></i> Donate</a></div>    <div class="navbar yamm float-sm-right" id="main-menu">
+    <div class="navbar-collapse collapse" id="navbar-main-menu">
+      <ul class="nav navbar-nav">
+        <li><a href="https://www.eclipse.org/projects/" target="_self">Projects</a></li><li><a href="https://www.eclipse.org/org/workinggroups/" target="_self">Working Groups</a></li><li><a href="https://www.eclipse.org/membership/" target="_self">Members</a></li>                  <li class="dropdown visible-xs"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Community <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="http://marketplace.eclipse.org">Marketplace</a></li><li><a href="http://events.eclipse.org">Events</a></li><li><a href="http://www.planeteclipse.org/">Planet Eclipse</a></li><li><a href="https://www.eclipse.org/community/eclipse_newsletter/">Newsletter</a></li><li><a href="https://www.youtube.com/user/EclipseFdn">Videos</a></li><li><a href="https://blogs.eclipse.org">Blogs</a></li></ul></li><li class="dropdown visible-xs"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Participate <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="https://bugs.eclipse.org/bugs/">Report a Bug</a></li><li><a href="https://www.eclipse.org/forums/">Forums</a></li><li><a href="https://www.eclipse.org/mail/">Mailing Lists</a></li><li><a href="https://wiki.eclipse.org/">Wiki</a></li><li><a href="https://wiki.eclipse.org/IRC">IRC</a></li><li><a href="https://www.eclipse.org/org/research/">Research</a></li></ul></li><li class="dropdown visible-xs"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Eclipse IDE <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="https://www.eclipse.org/downloads">Download</a></li><li><a href="https://www.eclipse.org/eclipseide">Learn More</a></li><li><a href="https://help.eclipse.org">Documentation</a></li><li><a href="https://www.eclipse.org/getting_started">Getting Started / Support</a></li><li><a href="https://www.eclipse.org/contribute/">How to Contribute</a></li><li><a href="https://www.eclipse.org/ide/">IDE and Tools</a></li><li><a href="https://www.eclipse.org/forums/index.php/f/89/">Newcomer Forum</a></li></ul></li>          <!-- More -->
+          <li class="dropdown eclipse-more hidden-xs">
+            <a data-toggle="dropdown" class="dropdown-toggle" role="button">More<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li>
+                <!-- Content container to add padding -->
+                <div class="yamm-content">
+                  <div class="row">
+                    <ul class="col-sm-8 list-unstyled"><li><p><strong>Community</strong></p></li><li><a href="http://marketplace.eclipse.org">Marketplace</a></li><li><a href="http://events.eclipse.org">Events</a></li><li><a href="http://www.planeteclipse.org/">Planet Eclipse</a></li><li><a href="https://www.eclipse.org/community/eclipse_newsletter/">Newsletter</a></li><li><a href="https://www.youtube.com/user/EclipseFdn">Videos</a></li><li><a href="https://blogs.eclipse.org">Blogs</a></li></ul><ul class="col-sm-8 list-unstyled"><li><p><strong>Participate</strong></p></li><li><a href="https://bugs.eclipse.org/bugs/">Report a Bug</a></li><li><a href="https://www.eclipse.org/forums/">Forums</a></li><li><a href="https://www.eclipse.org/mail/">Mailing Lists</a></li><li><a href="https://wiki.eclipse.org/">Wiki</a></li><li><a href="https://wiki.eclipse.org/IRC">IRC</a></li><li><a href="https://www.eclipse.org/org/research/">Research</a></li></ul><ul class="col-sm-8 list-unstyled"><li><p><strong>Eclipse IDE</strong></p></li><li><a href="https://www.eclipse.org/downloads">Download</a></li><li><a href="https://www.eclipse.org/eclipseide">Learn More</a></li><li><a href="https://help.eclipse.org">Documentation</a></li><li><a href="https://www.eclipse.org/getting_started">Getting Started / Support</a></li><li><a href="https://www.eclipse.org/contribute/">How to Contribute</a></li><li><a href="https://www.eclipse.org/ide/">IDE and Tools</a></li><li><a href="https://www.eclipse.org/forums/index.php/f/89/">Newcomer Forum</a></li></ul>                  </div>
+                </div>
+              </li>
+            </ul>
+          </li>
+                
+      </ul>
+    </div>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-main-menu">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+      <div class="wrapper-logo-mobile"><a class="navbar-brand visible-xs" href="https://www.eclipse.org/"><img class="logo-eclipse-default-mobile img-responsive" alt="Eclipse.org logo" width="160" src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-white-orange.svg"/></a></div>    </div>
+  </div>
+</div>
+    </div>
+  </div>
+  </header>
+          <section class="default-breadcrumbs hidden-print breadcrumbs-default-margin" id="breadcrumb">
+      <div class="container">
+        <h3 class="sr-only">Breadcrumbs</h3>
+        <div class="row">
+          <div class="col-sm-24"><ol class="breadcrumb"><li><a href="/">Home</a></li><li><a href="https://www.eclipse.org/projects/">Projects</a></li><li class="active">Donate</li></ol></div>
+        </div>
+      </div>
+    </section> <!-- /#breadcrumb -->
+      <main id="content">
+        <div class="novaContent container legacy-page" id="novaContent">
+          <div class="row"><div class="col-md-18 main-col-content">
+<div id="maincontent">
+  <div id="midcolumnwide">
+    <div style="font-size: 150%;">
+      <img style="width: 3ex; height: 3ex;" src="https://www.eclipse.org/downloads/images/committers.png"/>
+      <span>Eclipse IDE for Enterprise Java and Web Developers (includes Incubating components)</span>
+      <span style="font-size: 66%;">&nbsp;Version: 4.20.0.20210612-1200</span>
+    </div>
+
+    <br/>
+    <p>
+    The <span style="color: #2c2255; font-family: Arial, Helvetica, sans-serif;">Eclipse IDE for Enterprise Java and Web Developers (includes Incubating components)</span> is brought to you by the coordinated effort of Eclipse's diverse community using the infrastructure provided by the Eclipse Foundation.
+    It's <b>100%</b> free and <b>open source</b>.
+    Help keep it that way and make it better.
+    </p>
+
+    <hr>
+    <h3><b>What Can <span class="orange">I</span> Do to Support the <span style="color: #2c2255;">Eclipse</span> <span class="orange">Community</span>?</b></h3>
+    <a href="https://www.eclipse.org/donate/ide/?scope=Eclipse+IDE+for+Enterprise+Java+and+Web+Developers+%28includes+Incubating+components%29&amp;campaign=2021-06" target="_blank">
+    <img style="animation-name: wiggle; animation-duration: 3s; animation-iteration-count: infinite; animation-delay: 2s; animation-direction: alternate;" src="../installer/FriendsOfEclipse.png"/>
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://www.eclipse.org/donate/ide/?scope=Eclipse+IDE+for+Enterprise+Java+and+Web+Developers+%28includes+Incubating+components%29&amp;campaign=2021-06" target="_blank" class="btn btn-huge btn-primary" style="animation-name: wiggle; animation-duration: 3s; animation-iteration-count: infinite; animation-delay: 2s; animation-direction: alternate;"><i class="fa fa-star"></i> Donate</a>
+    <span style="font-size: 400%; color: #2c2255; margin-top: 0.5ex; margin-left: 0.5em; position: absolute; animation-name: wiggle; animation-duration: 3s; animation-iteration-count: infinite; animation-delay: 2s; animation-direction: alternate;">&dollar;</span>
+    <span style="font-size: 400%; color: #2c2255; margin-top: 0.5ex; margin-left: 1.5em; position: absolute; animation-name: wiggle; animation-duration: 3s; animation-iteration-count: infinite; animation-delay: 2s; animation-direction: alternate;">&euro;</span>
+    <span style="font-size: 400%; color: #2c2255; margin-top: 0.5ex; margin-left: 2.5em; position: absolute; animation-name: wiggle; animation-duration: 3s; animation-iteration-count: infinite; animation-delay: 2s; animation-direction: alternate;">&pound;</span>
+    <span style="font-size: 400%; color: #2c2255; margin-top: 0.5ex; margin-left: 3.5em; position: absolute; animation-name: wiggle; animation-duration: 3s; animation-iteration-count: infinite; animation-delay: 2s; animation-direction: alternate;">&#20803;</span>
+
+    <hr>
+    <input type="checkbox" id="toggle-id-1" class="toggle"/>
+    <label for="toggle-id-1" class="toggle-label"><span style="font-size: 125%;" class="orange toggle-state-on">&#x25E2;</span><span style="font-size: 125%;" class="orange toggle-state-off">&#x25B7;</span> Invest Your Money <span style="font-size: 50%;" class="orange toggle-state-off">&nbsp;&nbsp;read more...</span></label>
+    <ul class="toggle-content">
+      <li>
+      If you love Eclipse as much as we do, please <a href="https://www.eclipse.org/donate/ide/?scope=Eclipse+IDE+for+Enterprise+Java+and+Web+Developers+%28includes+Incubating+components%29&amp;campaign=2021-06" target="_blank">donate</a> a token of your appreciation.
+      </li>
+      <ul>
+        <li>
+        Eclipse is <b>100%</b> funded by the community and <b class="orange">you</b> as one of the millions of daily users are part of that community.
+        </li>
+        <li>
+        All the money donated will go directly to funding Eclipse IDE development and infrastructure.
+        </li>
+      </ul>
+      <li>
+      If you work for a company, encourge your employeer to become an <a href="https://www.eclipse.org/membership/" target="_blank">Eclipse Member</a>.
+      </li>
+      <li>
+      If you want influence, join an <a href="https://www.eclipse.org/org/workinggroups/" target="_blank">Eclipse Working Group</a>.
+      </li>
+      <li>
+      If you've built cool technology, <a href="https://www.eclipse.org/projects/handbook/#starting" target="_blank">start your own Eclipse Project</a>.
+      </li>
+    </ul>
+
+    <hr>
+    <input type="checkbox" id="toggle-id-2" class="toggle"/>
+    <label for="toggle-id-2" class="toggle-label"><span style="font-size: 125%;" class="orange toggle-state-on">&#x25E2;</span><span style="font-size: 125%;" class="orange toggle-state-off">&#x25B7;</span> Invest Your Time <span style="font-size: 50%;" class="orange toggle-state-off">&nbsp;&nbsp;read more...</span></label>
+    <ul class="toggle-content">
+      <li>
+      Help answer questions rather than just asking them.
+      Share your knowledge, experience, and expertise.
+      <ul>
+        <li>
+        If you don't already have an Eclipse Account, <a href="https://accounts.eclipse.org/user/register" target="_blank">register</a> now.
+        </li>
+        <li>
+        The <a href="https://www.eclipse.org/forums/index.php/f/89/" target="_blank">Newcomer Forum</a> is a great place to help others.
+        </li>
+      </ul>
+      </li>
+      <li>
+      Help fix bugs and help implement enhancements rather than just reporting problems and requesting features.
+      Not only will you personally benefit, giving back to the commons makes everything better for everyone.
+      <ul>
+        <li>
+        If you don't already have an Eclipse Account, <a href="https://accounts.eclipse.org/user/register" target="_blank">register</a> now.
+        </li>
+        <li>
+        If you haven't already signed your Eclipse Contributor Agreement, <a href="https://accounts.eclipse.org/user/eca" target="_blank">sign</a> now.
+        </li>
+        <li>
+        If you haven't already set up your Eclipse Gerrit Account, <a href="https://wiki.eclipse.org/Gerrit#User_Account" target="_blank">set it up</a> now.
+        </li>
+        <li>
+        If you're not familiar with Bugzilla,
+        learn <a href="https://wiki.eclipse.org/Bug_Reporting_FAQ" target="_blank">how to use Bugzilla</a>
+        and learn how Buzilla fits into the <a href="https://wiki.eclipse.org/Development_Resources/HOWTO/Bugzilla_Use" target="_blank">development process</a>.
+        </li>
+        <li>
+        If you don't have a particular problem or enhancment in mind,
+        look at the <a href="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=NEW&bug_status=REOPENED&keywords=helpwanted" target="_blank">Bugzilla reports for which help is wanted</a>.
+        </li>
+        <li>
+        You'll need to set up a development environment with the workspace provisioned to include the Git repositories of the projects to which you wish to contribute.
+        <ul>
+          <li>
+          The <a href="https://wiki.eclipse.org/Eclipse_Installer" target="_blank"><span style="font-family: Arial, Helvetica, sans-serif;"><span style="color: #2c2255;">eclipse</span> <span class="orange">installer</span></span></a> makes this super easy.
+          Many projects have Oomph project setups to automate the setup process.
+          Use the <span style="font-family: Arial, Helvetica, sans-serif;"><span style="color: #2c2255;">eclipse</span> <span class="orange">installer</span></span>'s <span style="font-variant: small-caps;">Advanced Mode...</span> menu item to switch to advanced mode and choose the project on the second page of the wizard.
+          </li>
+          <li>
+          Some projects make it even easier to get started by providing a setup configuration:
+          <ul>
+            <li>
+            <a href="https://www.eclipse.org/setups/installer/?url=https://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/interim/PlatformSDKConfiguration.setup&show=true" target="_blank">Contribute to the Eclipse Platform</a>.
+            </li>
+            <li>
+            <a href="https://www.eclipse.org/setups/installer/?url=https://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/configurations/OomphConfiguration.setup&show=true" target="_blank">Contribute to Oomph</a>.
+            </li>
+            <li>
+            <a href="https://www.eclipse.org/setups/installer/?url=https://git.eclipse.org/c/emf/org.eclipse.emf.git/plain/releng/org.eclipse.emf.releng/EMFDevelopmentEnvironmentConfiguration.setup&show=true&show=true" target="_blank">Contribute to the Eclipse Modeling Framework</a>.
+            </li>
+          </ul>
+          </li>
+        </ul>
+        </li>
+      </ul>
+      </li>
+    </ul>
+    <br>
+  </div>
+</div>
+<div id="rightcolumn">
+  
+</div>
+</div><div class="col-md-6 main-col-sidebar-nav">  <!-- nav -->
+  <aside class="main-sidebar-default-margin" id="main-sidebar">
+    
+    <ul class="ul-left-nav fa-ul hidden-print" id="leftnav" role="tablist" aria-multiselectable="true">
+                                    <li class="separator">
+              <a class="separator">
+                Invest Your Money              </a>
+            </li>
+                                                                    <li>
+                <i class="fa fa-caret-right fa-fw"></i>
+                <a href="https://www.eclipse.org/donate/ide/?scope=Eclipse+IDE+for+Enterprise+Java+and+Web+Developers+%28includes+Incubating+components%29&amp;campaign=2021-06">Donate</a>
+              </li>
+                      
+                                                          <li>
+                <i class="fa fa-caret-right fa-fw"></i>
+                <a href="https://www.eclipse.org/membership/">Become a Member</a>
+              </li>
+                      
+                                                          <li>
+                <i class="fa fa-caret-right fa-fw"></i>
+                <a href="https://www.eclipse.org/org/workinggroups/">Join a Working Group</a>
+              </li>
+                      
+                                                          <li>
+                <i class="fa fa-caret-right fa-fw"></i>
+                <a href="https://www.eclipse.org/projects/handbook/#starting">Start a Project</a>
+              </li>
+                      
+                                            <li class="separator">
+              <a class="separator">
+                Invest Your Time              </a>
+            </li>
+                                                                    <li>
+                <i class="fa fa-caret-right fa-fw"></i>
+                <a href="https://accounts.eclipse.org/user/register">Get an Account</a>
+              </li>
+                      
+                                                          <li>
+                <i class="fa fa-caret-right fa-fw"></i>
+                <a href="https://accounts.eclipse.org/user/eca">Sign the Contributor Agreement</a>
+              </li>
+                      
+                                                          <li>
+                <i class="fa fa-caret-right fa-fw"></i>
+                <a href="https://wiki.eclipse.org/Gerrit#User_Account">Configure Your Gerrit Account</a>
+              </li>
+                      
+                                                          <li>
+                <i class="fa fa-caret-right fa-fw"></i>
+                <a href="https://wiki.eclipse.org/Bug_Reporting_FAQ">Learn Bugzilla</a>
+              </li>
+                      
+                                                          <li>
+                <i class="fa fa-caret-right fa-fw"></i>
+                <a href="https://www.eclipse.org/setups/installer/?url=https://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/interim/PlatformSDKConfiguration.setup&show=true">Contribute to the Platform</a>
+              </li>
+                      
+                  </ul>
+      </aside>
+  </div></div>
+        </div>
+      </main><p id="back-to-top">
+  <a class="visible-xs" href="#top">Back to the top</a>
+</p>
+  <div class="eclipsefdn-featured-story featured-footer" data-publish-target="eclipse_org"><div class="container featured-container"></div></div><footer id="solstice-footer">
+    <div class="container">
+    <div class="row">
+      <section class="col-sm-6 hidden-print" id="footer-eclipse-foundation">
+            <h2 class="section-title">Eclipse Foundation</h2>
+    <ul class="nav"><li><a href="https://www.eclipse.org/org/">About Us</a></li><li><a href="https://www.eclipse.org/org/foundation/contact.php">Contact Us</a></li><li><a href="https://www.eclipse.org/donate">Donate</a></li><li><a href="https://www.eclipse.org/membership/">Members</a></li><li><a href="https://www.eclipse.org/org/documents/">Governance</a></li><li><a href="https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php">Code of Conduct</a></li><li><a href="https://www.eclipse.org/artwork/">Logo and Artwork</a></li><li><a href="https://www.eclipse.org/org/foundation/directors.php">Board of Directors</a></li></ul>      </section>
+      <section class="col-sm-6 hidden-print" id="footer-legal">
+            <h2 class="section-title">Legal</h2>
+    <ul class="nav"><li><a href="https://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li><li><a href="https://www.eclipse.org/legal/termsofuse.php">Terms of Use</a></li><li><a href="https://www.eclipse.org/legal/copyright.php">Copyright Agent</a></li><li><a href="https://www.eclipse.org/legal/epl-2.0/">Eclipse Public License</a></li><li><a href="https://www.eclipse.org/legal/">Legal Resources</a></li></ul>      </section>
+      <section class="col-sm-6 hidden-print" id="footer-useful-links">
+            <h2 class="section-title">Useful Links</h2>
+    <ul class="nav"><li><a href="https://bugs.eclipse.org/bugs/">Report a Bug</a></li><li><a href="//help.eclipse.org/">Documentation</a></li><li><a href="https://www.eclipse.org/contribute/">How to Contribute</a></li><li><a href="https://www.eclipse.org/mail/">Mailing Lists</a></li><li><a href="https://www.eclipse.org/forums/">Forums</a></li><li><a href="//marketplace.eclipse.org">Marketplace</a></li></ul>      </section>
+      <section class="col-sm-6 hidden-print" id="footer-other">
+            <h2 class="section-title">Other</h2>
+    <ul class="nav"><li><a href="https://www.eclipse.org/ide/">IDE and Tools</a></li><li><a href="https://www.eclipse.org/projects">Projects</a></li><li><a href="https://www.eclipse.org/org/workinggroups/">Working Groups</a></li><li><a href="https://www.eclipse.org/org/research/">Research@Eclipse</a></li><li><a href="https://www.eclipse.org/security/">Report a Vulnerability</a></li><li><a href="https://status.eclipse.org">Service Status</a></li></ul>      </section>
+            <div class="col-sm-24 margin-top-20">
+        <div class="row">
+          <div id="copyright" class="col-md-16">
+            <p id="copyright-text">Copyright &copy; Eclipse Foundation. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-8 social-media">
+            <ul class="list-inline">
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://twitter.com/EclipseFdn">
+                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x"></i>
+                </a>
+              </li>
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://www.facebook.com/eclipse.org">
+                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x"></i>
+                </a>
+              </li>
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://www.youtube.com/user/EclipseFdn">
+                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                  <i class="fa fa-youtube fa-stack-1x"></i>
+                </a>
+              </li>
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://www.linkedin.com/company/eclipse-foundation">
+                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>      <a href="#" class="scrollup">Back to the top</a>
+    </div>
+  </div>
+</footer>
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="/eclipse.org-common/themes/solstice/public/javascript/main.min.js?var=0.0.162"></script>
+
+</body>
+</html>

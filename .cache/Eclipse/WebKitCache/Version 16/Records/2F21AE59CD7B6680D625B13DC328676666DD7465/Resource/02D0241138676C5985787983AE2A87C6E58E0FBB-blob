@@ -1,0 +1,197 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html lang="es">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Open Registry Form</title>
+  <link rel="stylesheet" type="text/css" href="/wse/css/windows.css">
+  
+
+
+
+<script language="javascript">
+  var requestSubmitted = false;
+
+  function handleSubmit(form)
+  {
+    if (requestSubmitted)
+    {
+      alert("Please wait. The operation is still in progress.");
+      return false;
+    }
+    requestSubmitted = true;
+    return true;
+  }
+
+  function resetSubmission()
+  {
+    requestSubmitted = false;
+  }
+</script>
+
+  
+
+
+<script language="javascript">
+  
+  function createHiddenElement(elementName,value)
+  {
+    var hiddenInput;
+    if (elementName.length > 0)
+    {
+      if (isMicrosoftInternetExplorer())
+        hiddenInput = document.createElement("<input name='"+elementName+"'>");
+      else
+      {
+        hiddenInput = document.createElement("input");
+        hiddenInput.setAttribute("name",elementName);
+      }
+    }
+    else
+      hiddenInput = document.createElement("input");
+    hiddenInput.type = "hidden";
+    hiddenInput.value = value;
+    return hiddenInput;
+  }
+
+  function resetFormInputs()
+  {
+    document.location.reload();
+  }
+</script>
+
+  <script language="javascript">
+    function fillFavoriteInfo(favoriteRegistrySelect)
+    {
+      var selectedFavoriteRegistryIndex = favoriteRegistrySelect.selectedIndex-1;
+      if (selectedFavoriteRegistryIndex >= 0)
+      {
+        var form = document.getElementById("openRegistryForm");
+        switch (selectedFavoriteRegistryIndex)
+        {
+          
+        }
+      }
+    }
+
+    function setDefaults()
+    {
+      var form = document.getElementById("openRegistryForm");
+      form.registryName.value = "";
+      form.inquiryURL.value = "";
+      showMainForm();
+    }
+
+    function showMainForm()
+    {
+      var loadScreenTable = document.getElementById("loadScreen");
+      if (loadScreenTable.rows.length > 0)
+        loadScreenTable.deleteRow(0);
+      document.getElementById("mainScreen").style.display = "";
+    }
+
+   
+  </script>
+</head>
+<body dir="ltr" class="contentbodymargin">
+  <div id="contentborder">
+    <table id="loadScreen">
+      <tr>
+        <td class="labels">
+          Please wait while the form loads...
+        </td>
+      </tr>
+    </table>
+    <div id="mainScreen" style="display:none;">
+      
+      
+<table width="95%" border=0 cellpadding=3 cellspacing=0>
+  <tr>
+    <td>
+      <img src="/wse/uddi/images/open_registry_highlighted.gif" alt="">
+      <strong>Open Registry</strong>
+    </td>
+  </tr>
+  <tr>
+    <td height=20> <img height=2 width="100%" align="top" src="/wse/images/keyline.gif" alt=""> </td>
+  </tr>
+</table>
+
+      <table>
+        <tr>
+          <td class="labels">
+            Specify the name and inquiry URL of the registry to be opened. Selecting a favorite registry will automatically fill in the required information. Press <strong>Go</strong> to open the registry.
+          </td>
+        </tr>
+      </table>
+      
+      <form id="openRegistryForm" action="/wse/uddi/actions/OpenRegistryActionJSP.jsp" method="post" target="perspective_workarea" enctype="multipart/form-data" onSubmit="return handleSubmit(this)">
+        <table width="95%" border=0 cellpadding=3 cellspacing=0>
+         
+          <tr>
+            <td class="labels" valign="bottom" nowrap height=25>
+              <label for="favoriteRegistry">Favorite Registry</label>
+            </td>
+          </tr>
+          <tr>
+            <td height=25 valign="bottom" >
+              <select id="favoriteRegistry" onChange="fillFavoriteInfo(this)" class="selectlist">
+                <option value="" selected>
+                	
+                	<option value="Empty">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+				
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="labels" height=25 valign="bottom">
+              <label for="input_registry_name">Registry Name</label>
+              
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" id="input_registry_name" name="registryName" class="textenter">
+            </td>
+          </tr>
+          <tr>
+            <td class="labels" height=30 valign="bottom">
+              <label for="input_inquiry_url">Inquiry URL</label>
+              
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" id="input_inquiry_url" name="inquiryURL" class="textenter">
+            </td>
+          </tr>
+        </table>
+        
+
+
+
+<table border=0 cellpadding=2 cellspacing=0>
+  <tr>
+    <td height=30 valign="bottom" align="left" nowrap>
+      <input type="submit" value="&nbsp;&nbsp;Go&nbsp;&nbsp;" class="button">
+    </td>
+    <td height=30 valign="bottom" align="left" nowrap>
+      <input type="button" value="Reset" onClick="resetFormInputs()" class="button">
+    </td>
+    <td nowrap width="90%">&nbsp;</td>
+  </tr>
+</table>
+
+      </form>
+      <script language="javascript">
+        setDefaults();
+      </script>
+      
+    </div>
+  </div>
+</body>
+</html>

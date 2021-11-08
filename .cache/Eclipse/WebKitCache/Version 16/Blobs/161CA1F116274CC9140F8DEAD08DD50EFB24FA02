@@ -1,0 +1,41 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html lang="es">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Web Services Explorer Toolbar</title>
+  <link rel="stylesheet" type="text/css" href="/wse/css/toolbar.css">
+  <script language="javascript" src="/wse/scripts/toolbar.js">
+  </script>
+  <script language="javascript">
+    function openActionEngineContainer()
+    {
+      var link = "/wse/actionengine_container.jsp?sId=node01vzysidd6748pd6qv8brd59h91";
+      var actionEngineContainer = window.open(link,"actionEngineContainer","height=100,width=350,status=yes,scrollbars=yes,resizable=yes");
+      if (actionEngineContainer.focus)
+        actionEngineContainer.focus();
+    }
+  </script>
+</head>
+<body dir="ltr" class="gtoolbarbodymargin">
+<div id="globaltoolbar">
+<table width="100%" cellpadding=3 cellspacing=0 border=0>
+  <tr>
+    <td class="text" nowrap valign="middle" width="100%" height=25>Web Services Explorer</td>
+       
+    <td class="text" nowrap valign="middle" align="center" width=16 height=26><a href="/wse/actions/RetrieveHistoryActionJSP.jsp?jump=-1" target="perspective_workarea"><img class="normal" alt="Back" title="Back" src="/wse/images/back_enabled.gif" onMouseOver="src='/wse/images/back_highlighted.gif';mouseover(this);" onMouseOut="src='/wse/images/back_enabled.gif';mouseout(this)" onMouseDown="src='/wse/images/back_highlighted.gif';mousedown(this)" onMouseUp="src='/wse/images/back_enabled.gif';mouseup(this)"></a></td>
+    <td class="text" nowrap valign="middle" align="left" height=25><a href="/wse/actions/RetrieveHistoryActionJSP.jsp?jump=1" target="perspective_workarea"><img class="normal" alt="Forward" title="Forward" src="/wse/images/forward_enabled.gif" onMouseOver="src='/wse/images/forward_highlighted.gif';mouseover(this);" onMouseOut="src='/wse/images/forward_enabled.gif';mouseout(this)" onMouseDown="src='/wse/images/forward_highlighted.gif';mousedown(this)" onMouseUp="src='/wse/images/forward_enabled.gif';mouseup(this)"></a></td>
+    
+    <td class="text" nowrap valign="middle" align="left" height=25><a href="/wse/actions/ShowPerspectiveActionJSP.jsp?perspective=0" target="perspective_workarea"><img class="normal" alt="UDDI Page" title="UDDI Page" src="/wse/images/uddi_perspective_enabled.gif" onMouseOver="src='/wse/images/uddi_perspective_highlighted.gif';mouseover(this);" onMouseOut="src='/wse/images/uddi_perspective_enabled.gif';mouseout(this)" onMouseDown="src='/wse/images/uddi_perspective_highlighted.gif';mousedown(this)" onMouseUp="src='/wse/images/uddi_perspective_enabled.gif';mouseup(this)"></a></td>
+    <td class="text" nowrap valign="middle" align="left" height=25><a href="/wse/actions/ShowPerspectiveActionJSP.jsp?perspective=1" target="perspective_workarea"><img class="normal" alt="WSIL Page" title="WSIL Page" src="/wse/images/wsil_perspective_enabled.gif" onMouseOver="src='/wse/images/wsil_perspective_highlighted.gif';mouseover(this);" onMouseOut="src='/wse/images/wsil_perspective_enabled.gif';mouseout(this)" onMouseDown="src='/wse/images/wsil_perspective_highlighted.gif';mousedown(this)" onMouseUp="src='/wse/images/wsil_perspective_enabled.gif';mouseup(this)"></a></td>
+    <td class="text" nowrap valign="middle" align="left" height=25><a href="/wse/actions/ShowPerspectiveActionJSP.jsp?perspective=2" target="perspective_workarea"><img class="normal" alt="WSDL Page" title="WSDL Page" src="/wse/images/wsdl_perspective_enabled.gif" onMouseOver="src='/wse/images/wsdl_perspective_highlighted.gif';mouseover(this);" onMouseOut="src='/wse/images/wsdl_perspective_enabled.gif';mouseout(this)" onMouseDown="src='/wse/images/wsdl_perspective_highlighted.gif';mousedown(this)" onMouseUp="src='/wse/images/wsdl_perspective_enabled.gif';mouseup(this)"></a></td>    
+    <td class="text" nowrap valign="middle" align="left" height=25><a href="/wse/actions/ShowPerspectiveActionJSP.jsp?perspective=3" target="perspective_workarea"><img class="normal" alt="Favorites" title="Favorites" src="/wse/images/favorites_perspective_enabled.gif" onMouseOver="src='/wse/images/favorites_perspective_highlighted.gif';mouseover(this);" onMouseOut="src='/wse/images/favorites_perspective_enabled.gif';mouseout(this)" onMouseDown="src='/wse/images/favorites_perspective_highlighted.gif';mousedown(this)" onMouseUp="src='/wse/images/favorites_perspective_enabled.gif';mouseup(this)"></a></td>
+  </tr>
+</table>
+</div>
+</body>
+</html>
